@@ -1,0 +1,58 @@
+.header {
+    background: url(/assets/img/header-bg.jpg) no-repeat;
+    min-height: 793px;
+    background-size: cover;
+    background-position: top center;
+
+    .container {
+        padding: 0 15px;
+
+        .header__top {
+            display: flex;
+            justify-content: space-between;
+            height: 100px;
+            align-items: center;
+
+            .header__navigation {
+                .navigation {
+                    display: flex;
+
+                    &>li+li {
+                        padding-left: 50px;
+                    }
+
+                    a {
+                        opacity: 0.5;
+                        color: $default-color;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        transition: all .5s;
+                    }
+
+                    a:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+
+            .header__buttons {
+                .login {
+                    padding-right: 44px;
+                    color: $default-color;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                }
+
+                .sign-up {
+                    text-transform: uppercase;
+                    color: #250F8A;
+                    font-weight: 600;
+                    background-color: $default-color;
+                    padding: 8px 43px;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+
+}
