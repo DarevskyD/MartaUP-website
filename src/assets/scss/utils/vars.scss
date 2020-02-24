@@ -2,18 +2,20 @@
    ========================================================================== */
 
 // Font
-$mainFont : 'HelvetiaVerbundene-24wo',
-Helvetica,
-Arial,
+$mainFont : 'SourceSansPro-Regular',
+sans-serif;
+$boldFont : 'SourceSansPro-Bold',
+sans-serif;
+$boldFont : 'SourceSansPro-SemiBold',
 sans-serif;
 
 // Size
 $mainFontColor : #101010;
-$mainFontSize : 18px;
+$mainFontSize : 15px;
 $mainFontWeight : 400;
-$mainLineHeight : 1.4;
+$mainLineHeight : 1.6;
 
-$desktopWidth : 1280px;
+$desktopWidth : 1200px;
 $smDesktopWidth : 1024px;
 $tableWidth : 768px;
 $smTableWidth : 640px;

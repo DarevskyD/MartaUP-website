@@ -23,10 +23,21 @@
             url('/assets/fonts/Helvetica/Base/Helvetica-Base.svg') format('svg'); // Legacy iOS
      } */
 
-// @font-face {
-//   font-family: "HelvetiaVerbundene-24wo";
-//   src: url("/assets/fonts/helvetia-verbundene-font/HelvetiaVerbundene-24wo.ttf");
-// }
+@font-face {
+  font-family: "SourceSansPro-Regular";
+  src: url("/assets/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+}
+
+@font-face {
+     font-family: "SourceSansPro-Bold";
+     src: url("/assets/fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf");
+   }
+
+   @font-face {
+     font-family: "SourceSansPro-SemiBold";
+     src: url("/assets/fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf");
+   }   
+   
 
 
 // 2. Example with mixin (example):
