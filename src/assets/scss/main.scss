@@ -11,22 +11,22 @@ html {
   height: 100%;
 
   @media screen and (max-width: $desktopWidth) {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   @media screen and (max-width: $tableWidth) {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   @media screen and (max-width: $phoneWidth) {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: Helvetica;
+  font-family: $mainFont;
   font-size: $mainFontSize;
   font-weight: $mainFontWeight;
   -webkit-font-smoothing: antialiased;
@@ -46,10 +46,11 @@ h4,
 h5,
 h6 {
   margin: 0;
-  }
+}
 
 a {
   text-decoration: none;
+  color: invert;
 }
 
 ul,
@@ -112,4 +113,4 @@ section,
 }
 
 // Modules:
-@import "modules/wrapper.scss";
+@import "modules/header";
