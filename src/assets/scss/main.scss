@@ -4,22 +4,28 @@
 @import "utils/fonts";
 @import "utils/reset";
 
+// Modules:
+@import "modules/header";
+@import "modules/slider";
+@import "modules/specialised";
+
+
+
 html {
-  line-height: $mainLineHeight;
   font-size: $mainFontSize;
-  color: $mainFontColor;
+  color: $main-color;
   height: 100%;
 
   @media screen and (max-width: $desktopWidth) {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   @media screen and (max-width: $tableWidth) {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   @media screen and (max-width: $phoneWidth) {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
@@ -46,6 +52,27 @@ h4,
 h5,
 h6 {
   margin: 0;
+}
+
+h1 {
+  font-family: $boldFont;
+  font-size: 4.0rem;
+  line-height: 6.0rem;
+  color: $default-color;
+}
+
+h2 {
+  font-family: $boldFont;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+  color: $title-color;
+}
+
+h3 {
+  font-family: $boldFont;
+  font-size: 2.0rem;
+  line-height: 2.4rem;
+  color: $title-color;
 }
 
 a {
@@ -98,6 +125,7 @@ section,
   position: relative;
   margin: 0 auto;
   max-width: $desktopWidth;
+  padding: 0 15px;
 
   @media screen and (max-width: $smDesktopWidth) {
     max-width: $tableWidth;
@@ -111,6 +139,3 @@ section,
     max-width: $smPhoneWidth;
   }
 }
-
-// Modules:
-@import "modules/header";
