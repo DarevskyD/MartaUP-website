@@ -1,0 +1,41 @@
+.header-slider {
+    padding-top: 111px;
+
+    .header-slider__item {
+        .header-slider__item-content {
+            display: flex;
+            justify-content: space-between;
+
+            .header-slider__item-info {
+                max-width: 506px;
+                color: $default-color;
+
+                .header-slider__title {
+                    font-weight: 600;
+                    margin-bottom: 10px;                    
+                }
+
+                .header-slider__description {
+                    font-size: 2.4rem;
+                    line-height: 5.5rem;
+                    margin-bottom: 60px;
+                }
+
+                .header-slider__btn {
+                    font-weight: 600;
+                    font-size: 1.5rem;
+                    line-height: 2.4rem;
+                    text-transform: uppercase;
+                    color: $textbtn-color;
+                    padding: 13px 39px;
+                    background: $btn-color;
+                    border-radius: 25px;
+                }
+            }
+
+            .header-slider__item-images {
+                margin: 10px 82px 0 0;
+            }
+        }
+    }
+}
