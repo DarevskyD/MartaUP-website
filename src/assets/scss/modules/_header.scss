@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: top center;
 
-    .header__top {
+    &__top {
         display: flex;
         justify-content: space-between;
         height: 100px;
@@ -14,13 +14,13 @@
             .navigation {
                 display: flex;
 
-                .navigation__link {
+                &__link {
                     padding-left: 50px;
 
                     a {
                         opacity: 0.5;
                         color: $default-color;
-                        font-weight: 600;
+                        font-weight: $boldFontWeight;
                         text-transform: uppercase;
                         transition: all .5s;
                         font-style: normal;
@@ -33,7 +33,7 @@
                     }
                 }
 
-                .navigation__link:nth-child(1) {
+                &__link:nth-child(1) {
                     padding-left: 0;
                 }
             }
@@ -43,7 +43,7 @@
             .login {
                 padding-right: 44px;
                 color: $default-color;
-                font-weight: 600;
+                font-weight: $boldFontWeight;
                 text-transform: uppercase;
                 font-style: normal;
                 font-size: 1.5rem;
@@ -56,7 +56,7 @@
                 line-height: 2.4rem;
                 text-transform: uppercase;
                 color: $textbtn-color;
-                font-weight: 600;
+                font-weight: $boldFontWeight;
                 background-color: $default-color;
                 padding: 8px 43px;
                 border-radius: 20px;

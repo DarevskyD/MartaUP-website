@@ -1,0 +1,49 @@
+.promo {
+    padding-top: 64px;
+    background: $promobg-color;
+    background: url(/assets/img/style-2.png) no-repeat;
+    background-position: center right;
+
+    &-box {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 76px;
+
+        &__info {
+            max-width: 456px;
+            padding-top: 60px;
+            background: url(/assets/img/promo/promo-bg1.svg) no-repeat;
+            background-position: 22px 76px;
+
+            .promo-box__title {
+                padding: 68px 0 15px 48px;
+
+            }
+
+            .promo-box__text {
+                padding-left: 48px;
+                font-size: 1.5rem;
+                line-height: 2.4rem;
+
+                p {
+                    margin: 12px 0;
+                }
+            }
+        }
+
+        .promo-box__info-bg {
+            background: url(/assets/img/promo/promo-bg3.svg) no-repeat;
+            background-position: 22px 76px;
+        }
+    }
+
+    &-box-right {
+        flex-direction: row-reverse;
+
+        .promo-box__info {
+            background: url(/assets/img/promo/promo-bg2.svg) no-repeat;
+            background-position: 5px 105px;
+        }
+    }
+
+}

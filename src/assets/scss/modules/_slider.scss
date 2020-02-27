@@ -1,17 +1,17 @@
 .header-slider {
     padding-top: 111px;
 
-    .header-slider__item {
-        .header-slider__item-content {
+    &__item {
+        &-content {
             display: flex;
             justify-content: space-between;
 
-            .header-slider__item-info {
+            &-info {
                 max-width: 506px;
                 color: $default-color;
 
                 .header-slider__title {
-                    font-weight: 600;
+                    font-weight: $boldFontWeight;
                     margin-bottom: 10px;                    
                 }
 
@@ -22,7 +22,7 @@
                 }
 
                 .header-slider__btn {
-                    font-weight: 600;
+                    font-weight: $boldFontWeight;
                     font-size: 1.5rem;
                     line-height: 2.4rem;
                     text-transform: uppercase;
@@ -33,7 +33,7 @@
                 }
             }
 
-            .header-slider__item-images {
+            &-images {
                 margin: 10px 82px 0 0;
             }
         }
