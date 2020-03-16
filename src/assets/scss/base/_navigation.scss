@@ -1,0 +1,29 @@
+.navigation {
+    display: flex;
+
+    &__link {
+        padding-left: 50px;
+
+        a {
+            @include font(1.6rem, 2.4rem, bold);
+            opacity: 0.5;
+            color: $default-color;
+            text-transform: uppercase;
+            transition: all .5s;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__link:nth-child(1) {
+        padding-left: 0;
+    }
+}
+
+.header__navigation {
+    @include media-tablet {
+        display: none;
+    }
+}

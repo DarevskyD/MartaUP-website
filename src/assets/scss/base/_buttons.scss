@@ -1,0 +1,61 @@
+.header-slider__btn {
+    @include font(1.6rem, 2.4rem, bold);
+    text-transform: uppercase;
+    color: $textbtn-color;
+    padding: 13px 39px;
+    background: $btn-color;
+    border: 1px solid $btn-color;
+    border-radius: 25px;
+
+    @include media-tablet {        
+        padding: 8px 30px; 
+        border-radius: 20px;       
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.header__buttons {
+    .login {
+        @include font(1.6rem, 2.4rem, bold);
+        border: none;
+        color: $default-color;
+        text-transform: uppercase;
+        background: transparent;
+        padding: 8px 35px;
+        border-radius: 20px;
+
+        &:hover {
+            border: 1px solid $default-color;
+            background-color: rgba(255, 255, 255, 0.2);
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .sign-up {
+        @include font(1.6rem, 2.4rem, bold);
+        border: 1px solid $default-color;
+        text-transform: uppercase;
+        color: $textbtn-color;
+        background-color: $default-color;
+        border: none;
+        padding: 8px 35px;
+        border-radius: 20px;
+        margin-left: 10px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    @include media-mobile {
+        display: none;
+    }
+}
