@@ -5,8 +5,11 @@
     background-repeat: no-repeat;
     background-position: center right;
 
-    @include media-tablet {
+    @include media-small-laptop {
         background-image: none;
+    }
+
+    @include media-tablet {
         padding-top: 30px;
     }
 

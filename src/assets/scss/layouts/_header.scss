@@ -4,14 +4,28 @@
     background-size: cover;
     background-position: top center;
 
+    @include media-small-laptop {
+        min-height: 700px;
+    }
+
     @include media-tablet {
-        min-height: 550px;
+        min-height: 500px;
     }
 
     @include media-mobile {
-        min-height: 420px;
+        min-height: 450px;
     }
 }
+
+.container-fixed {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    background-color: rgba(20, 117, 186, 1);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.20);    
+}
+
 
 .header__top {
     display: flex;
