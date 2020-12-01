@@ -110,8 +110,7 @@
     cursor: pointer;
     border-radius: 50%;
     width: 60px;
-    height: 60px;
-    background-color: rgba(0, 0, 0, 0);
+    height: 60px;   
     -webkit-transition: 0.5s;
     transition: 0.5s;
 
@@ -122,7 +121,7 @@
 
 
     &:hover {
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(255, 255, 255, 0.5);
 
         .arrow-left {
             opacity: 1;
@@ -130,6 +129,7 @@
             -ms-transform: translate(-20%);
             transform: translate(-20%);
         }
+        
     }
 
     .arrow-left {
@@ -138,7 +138,7 @@
         left: 15px;
         width: 30px;
         height: 30px;
-        background: url("/assets/img/icons/left-arrow.svg") center no-repeat;
+        background: url("/assets/img/icons-slider/arrow-left.svg") center no-repeat;
         background-size: cover;
         opacity: .4;
         -webkit-transition: 1s;
@@ -156,8 +156,7 @@
     cursor: pointer;
     border-radius: 50%;
     width: 60px;
-    height: 60px;
-    background-color: rgba(0, 0, 0, 0);
+    height: 60px;    
     -webkit-transition: 0.5s;
     transition: 0.5s;
 
@@ -167,7 +166,7 @@
     }
 
     &:hover {
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(255, 255, 255, 0.5);
 
         .arrow-right {
             opacity: 1;
@@ -183,7 +182,7 @@
         right: 15px;
         width: 30px;
         height: 30px;
-        background: url("/assets/img/icons/right-arrow.svg") center no-repeat;
+        background: url("/assets/img/icons-slider/arrow-right.svg") center no-repeat;
         background-size: cover;
         opacity: .4;
         -webkit-transition: 1s;
