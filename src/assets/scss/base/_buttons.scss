@@ -93,19 +93,20 @@
             background-color:  rgba(20, 117, 186, 1);
             width: 180px; 
             margin-left: 0;
-            padding: 12px 35px;          
+            padding: 12px 35px;                     
         }
     }
 
     @include media-mobile {
      position: fixed;
-     display: none;
+     display: flex;     
      flex-direction: column;
      align-items: center;
-     width: 342px;
-     height: 100px;
-     left: 0;
+     width: 100%;
+     height: auto;
+     left: -450px;
      top: 400px;
+     transition: left 0.8s;
     }
 
     @include media-mobile {
